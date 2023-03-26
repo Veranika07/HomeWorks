@@ -47,7 +47,12 @@ Conditions: triangle length: AC = 8.0, CB = 6.0. The hypotenuse of triangle AB i
 var AC: Double = 8
 var CB: Double = 6
 var AB: Double = sqrt((AC*AC + CB*CB))
-var Area: Double = ((AC*AC + CB*CB)/2)
+var Area: Double = ((AC * CB)/2)
 var perimetr = AC + CB + AB
 print("Area of triangle is \(Area)")
 print("Perimetr of triangle is \(perimetr)")
+/*
+ Ex5:
+ Calculate the number of years, months, days from you birthday to current date.
+ print("Total years: \(totalYearsFromBirth) , total months: \(totalMonthFromBirth), total days: \(totalDaysFromBirth)")
+ */
